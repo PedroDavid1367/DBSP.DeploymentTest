@@ -11,7 +11,7 @@ export class OidcTokenManagerService {
     post_logout_redirect_uri: "http://localhost:8080/home",
     response_type: "id_token token",
     // scope: "openid profile address gallerymanagement roles",
-    scope: "openid profile addresses gallerymanagement roles",
+    scope: "openid profile addresses notesmanagement roles",
     //authority: "https://localhost:44317/identity",
     authority: "http://localhost:1693/identity",
     silent_redirect_uri: "http://localhost:8080/silent-refresh",
